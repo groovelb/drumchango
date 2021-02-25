@@ -1,0 +1,26 @@
+.img_post{
+	width: 64%;
+	height: auto;
+}
+
+@media screen and (max-width: 680px) {
+	.img_post{
+		width: 100%;
+		height: auto;
+	}
+}
+
+#invite_artist_banner{
+	background-image: url("../img/bg_invite_artist.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.empty_img{
+	background-size: cover;
+	background-position: center;
+	background-image: url("../img/empty_img.svg");
+}
+
+#point_photo{
+	background-image: url("../img/bg_point.jpg");
+}

@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,400,700,900&display=swap');
+
+/*Big font*/
+body{
+	font-family : 'Noto Sans KR', sans-serif;
+	font-weight: 400;
+}
+
+/*Size*/
+.body{
+	font-size: 12.8px;
+	line-height: 20.8px;
+}
+#post_content.body{
+	font-size: 14.8px;
+	line-height: 28px;
+}
+.small{
+	font-size: 9.8px !important;
+	line-height: 14.8px !important;
+}
+.caption{
+	font-size: 10.8px !important;
+	line-height: 14.8px !important;
+}
+.subtitle{
+	font-size: 16.8px;
+	line-height: 24.8px;
+}
+.big_title{
+	font-size: 20.4px;
+	line-height: 28.8px;
+}
+.textcenter{
+	text-align: center;
+}
+/*Weight*/
+.w100{
+	font-weight: 100;
+}
+.w400{
+	font-weight: 400;
+}
+.w700{
+	font-weight: 700;
+}
+.w900{
+	font-weight: 900;
+}
+
+/*TEXT OVERFLOW CLIP 1LINE*/
+.ellipse_1line{
+	overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; /* 라인수 */
+	-webkit-box-orient: vertical;
+	word-wrap:break-word;
+}
